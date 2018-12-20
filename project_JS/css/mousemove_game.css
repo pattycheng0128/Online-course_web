@@ -1,0 +1,43 @@
+  .box1{
+    top: 0px;
+    left: 20px;
+    animation: fontbulger 2s infinite;
+  }
+  .box2{
+    top: 0px;
+    left: 90px;
+    animation: fontbulger 3s infinite;
+  }
+  .box3{
+    top: 0px;
+    left: 160px;
+    animation: fontbulger 2.5s infinite;
+  }
+  .box4{
+    top: 0px;
+    left: 230px;
+    animation: fontbulger 1.2s infinite;
+  }
+  .box5{
+    top: 0px;
+    left: 300px;
+    animation: fontbulger 1.5s infinite;
+  }
+  .box6{
+    top: 0px;
+    left: 370px;
+    animation: fontbulger 1.3s infinite;
+  }
+  @keyframes fontbulger {
+    0% {
+      top: 0px;
+    }
+    30% {
+      top: 150px;
+    }
+    100% {
+      top: 0px;
+    }
+  }
+  
+  

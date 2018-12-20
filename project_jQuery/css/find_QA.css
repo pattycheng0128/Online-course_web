@@ -1,0 +1,18 @@
+.question-list{
+    width: 500px;
+    margin: 0 auto;
+}
+.question h3{
+    border: 1px solid gray;
+}
+.question p{
+    display: none;
+}
+.question p.active{
+    background: pink;
+    color: white;
+}
+.question h3:hover,.question h3.active{
+    background-color: pink;
+    color: white;
+}

@@ -1,0 +1,19 @@
+.style1{
+	color:orange;
+}
+.style1 h2{
+	color:blue;
+}
+
+.style2{
+	color:pink;
+}
+
+
+.style2 h2 span{
+	font-size: 70px;
+}
+
+.header_css{
+	color:blue;
+}

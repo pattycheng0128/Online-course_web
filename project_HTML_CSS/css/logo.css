@@ -1,0 +1,12 @@
+.header h1{
+    float: left;
+}
+.header h1 a{
+    background-image: url(../images/logo.jpg);
+    width:195px;
+    height: 60px;
+    display: block;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space:nowrap;
+}

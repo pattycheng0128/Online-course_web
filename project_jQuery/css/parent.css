@@ -1,0 +1,20 @@
+.addCart{
+    width: 500px;
+}
+.addCart li{
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    height: 50px;
+}
+.addCart li.active{
+    background-color: pink;
+}
+.cart{
+    background-color: blue;
+    color: white;
+    height: 30px;
+    margin-top:10px;
+}
+.cart:hover{
+    background-color:pink;
+}

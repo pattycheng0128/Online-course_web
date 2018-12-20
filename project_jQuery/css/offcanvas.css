@@ -1,0 +1,142 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*design*/
+.wrap{
+    margin: 0 auto;
+    position: relative;
+}
+.main{
+    width: 100%;
+    background-color: #FAFAD2;
+    float: right;
+    transition: 0.3s ease;
+}
+
+.header{
+    height: 50px;
+    background-color: #FFE4E1;
+    margin-bottom: 20px;
+}
+.header a{
+    float: left;
+}
+.header a img{
+    margin:10px;
+}
+.header li{
+    float: left;
+    padding-top:15px;
+    padding-left: 50px;
+    
+}
+.header li a{
+    text-decoration: none;
+    color: #778899;
+
+}
+.aside{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    height: 860px;
+    background: #F5F5F5;
+    overflow: hidden;
+    transform: translateX(-100px);
+  }
+  .aside li a{
+    text-decoration: none;
+  }
+  .aside li{
+      margin-top:50px;
+      padding-bottom:50px;
+      padding-left: 15px;
+  }
+  .open .main{
+    transform: translateX(100px);
+  }
+  .open .aside{   
+    transform: translateX(0px);
+  }
+
+.clearfix{
+    clear: both;
+}
+
+/*product list*/
+.productList img{
+    width: 277px;
+    height: 200px;
+}
+.productList li{
+    float: left;
+    width: 277px;
+    height: 250px;
+    border:1px solid gray;
+    margin-left: 15px;
+    margin-bottom:15px; 
+    position: relative;
+    overflow: hidden;
+}
+.productList p{
+    transition: all 1s;
+    position: absolute;
+    background-color: black;
+    color: white;
+    width:277px;
+    text-align: center;
+    padding-top:16px;
+    padding-bottom: 16px;
+    bottom:-50px;
+}
+.productList:hover p{
+    bottom:0;
+}
+
+

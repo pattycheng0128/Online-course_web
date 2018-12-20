@@ -1,0 +1,21 @@
+h1{
+	color: blue;
+	font-size: 99px;
+	text-decoration: underline;
+	border:10px dashed red;
+}
+
+p{
+	font-family: verdana;
+	color: pink;
+	line-height:1.5;/*行距*/
+	text-align:left;/*文字靠左*/
+	text-indent:36px;
+}
+
+a:hover{
+	color:gray;
+}
+a:active{
+	color:yellow;
+}

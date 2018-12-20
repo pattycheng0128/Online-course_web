@@ -1,0 +1,15 @@
+.cart{
+    width:800px;
+    margin: 0 auto;
+    background-color: pink;
+}
+.cart li{
+    float: left;
+    width:170px;
+    border: 1px solid gray;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.cart p.active{
+    background-color: pink;
+}

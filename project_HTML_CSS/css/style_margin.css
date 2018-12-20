@@ -1,0 +1,17 @@
+.wrap{
+	width:900px;
+	background-color:orange;
+	margin:0 auto;
+}
+.header{
+	background-color: pink;
+	height: 100px;
+}
+.content{
+	background-color: orange;
+	height:500px;
+}
+.footer{
+	background-color: gray;
+	height:50px;
+}

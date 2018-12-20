@@ -1,0 +1,22 @@
+.wrap{
+    margin:0 auto;
+    width:1200px;
+}
+.box1{
+    width:200px;
+    height: 800px;
+    background-color:#FFEFD5;
+    float: left;
+}
+.box2{
+    width:800px;
+    height: 800px;
+    background-color:#FFE4E1;
+    float: left;
+}
+.box3{
+    width:200px;
+    height: 800px;
+    background-color:#FFEFD5;
+    float: left;
+}

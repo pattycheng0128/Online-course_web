@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body style="background:black;color:white;">
+    <h1>這是第二頁</h1>
+    <a href="bom.html" style="font:800px;">前ㄧ頁(href)</a>
+    <br>
+    <input id="prevent" type="button" value="前一頁(JS)">
+    <script>
+        document.getElementById("prevent").onclick = function () {
+            window.history.back();//回到前一頁
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+h1{
+	color: blue;
+}
+.link{
+	color: pink;
+}
+.ul_li5{
+	text-decoration: line-through;
+}
+h2{
+	border-left: 5px solid red;
+	border-bottom:5px solid red;
+}
+img{
+	border:5px solid gray;
+}
+li{
+	line-height:1.5;
+}

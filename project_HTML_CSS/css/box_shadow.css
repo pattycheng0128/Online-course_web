@@ -1,0 +1,7 @@
+.box{
+    width:200px;
+    height: 200px;
+    margin:50px;
+    background-color: palevioletred;
+    box-shadow:30px 0px 15px peru;
+}

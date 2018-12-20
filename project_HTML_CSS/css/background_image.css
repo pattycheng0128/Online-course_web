@@ -1,0 +1,10 @@
+.box{
+    width:400px;
+    height: 400px;
+    /* background-image: url(../images/logo.jpg);
+    background-repeat: no-repeat;
+    background-color: pink;
+    background-position: 50% 50%; */
+    background:url(../images/logo.jpg) no-repeat pink 50% 50%;/*可用一行縮寫*/
+
+}

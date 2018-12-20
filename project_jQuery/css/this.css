@@ -1,0 +1,15 @@
+.menu{
+    width: 500px;
+}
+.menu li{
+    height: 30px;
+    border: 2px solid gray;
+    margin-bottom: 10px;
+}
+.menu li:hover{
+    background-color: pink;
+    color: white;
+}
+.menu li.active{
+    background-color: blueviolet;
+}
